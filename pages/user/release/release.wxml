@@ -1,0 +1,7 @@
+<!--pages/user/release/release.wxml-->
+<view class='nodata'>
+  <image src='../../../images/nodata.png' class='img'/>
+</view>
+<view class='server'>
+  <text class='text'>暂无数据</text>
+</view>

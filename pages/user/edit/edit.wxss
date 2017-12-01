@@ -1,0 +1,59 @@
+.section{
+  padding: 10px 15px;
+}
+.item{
+  width: 100%;
+  padding: 10px 0;
+  border-bottom:1px solid #eee; 
+}
+.avatar{
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.item_x2{
+  width: 30%;
+  display: inline-block;
+}
+.item_x8{
+  width: 70%;
+  color: #999;
+  font-size: 14px;
+  text-align: right;
+  vertical-align: middle;
+  display: inline-block;
+}
+.code_input{
+  width: 65%;
+  color: #999;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+.code_button{
+  width: 35%;
+  display: inline-block;
+  vertical-align: middle;
+}
+button{
+  background-color: transparent!important;
+  font-size: 12px;
+  padding:0 3px;
+  color: #ffcc32;
+  vertical-align: middle;
+}
+button::after{
+  border: 1px solid #ffcc32;
+}
+.footer{
+  width: 100%;
+  color: #fff;
+  background: #ffcc32;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

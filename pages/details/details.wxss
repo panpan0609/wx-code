@@ -1,0 +1,54 @@
+/* pages/details/details.wxss */
+
+.list{
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.list .item_x2{
+  width: 20%;
+  display: inline-block;
+}
+.list .item_x8{
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.list .item_x2 .item_avtar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.tel{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  line-height: 20px;
+  background: #ffcc32;
+  border-radius: 10px;
+  color: #fff;
+  font-size:12px; 
+  padding: 2px 5px;
+  display: flex;
+  align-content: center;
+}
+.tel-icon{
+  width: 15px;
+  height: 15px;
+  padding: 2.5px 0;
+}
+.list .item_x8 .title,.list .item_x8 .phone{
+  display: block;
+  line-height: 20px;
+}
+.list .item_x8 .title{
+  font-size: 14px;
+}
+.list .item_x8 .phone{
+  color: #999;
+  font-size: 13px;
+}
+.block{
+  display: block;
+}

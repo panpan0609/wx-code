@@ -1,0 +1,24 @@
+<!--pages/details/details.wxml-->
+<view class='list'>
+  <view class='item_x2'>
+    <image src="../../images/05.jpg" class='item_avtar'/>
+  </view>
+  <view class='item_x8'>
+    <text class='title'>灯都古镇平台</text> 
+    <text class='phone'>电话:13125152877</text>
+  </view>
+  <view class='tel'catchtap="calling">
+    <image src='../../images/tel.png' class='tel-icon'></image>
+    拨打电话
+  </view>
+  <view class='detail'>
+    <text class='block'>全职招聘-网络/IT</text>
+    <text class='block'>标题:城市客寓</text>
+    <text class='block'>
+      详细信息
+    </text>
+    <text>
+      古镇同城网络招聘啦!走过路过不要错过，哈哈哈，过来看一看，瞧一瞧啊，招前端开发工程师，PHP开发工程师，ui设计师
+    </text>
+  </view>
+</view>

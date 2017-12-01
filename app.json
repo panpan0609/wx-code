@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/fabu/fabu",
+    "pages/user/userinfo/userinfo",
+    "pages/user/release/release",
+    "pages/user/edit/edit",
+    "pages/detail/detail",
+    "pages/classify/classify",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffcc32",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ffcc32",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/index_selected.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/fabu_selected.png",
+        "iconPath": "images/fabu.png",
+        "pagePath": "pages/fabu/fabu",
+        "text": "发布"
+      },
+      {
+        "selectedIconPath": "images/my_selected.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}
