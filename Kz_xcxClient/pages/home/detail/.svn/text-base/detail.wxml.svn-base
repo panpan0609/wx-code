@@ -1,0 +1,54 @@
+<!--详情  -->
+<view class='list contanier'>
+  <view class='item_x2 col-x2'>
+    <image src="../../../images/05.jpg" class='item_avtar'/>
+  </view>
+  <view class='item_x8  col-x8'>
+    <text class='title'>灯都古镇平台</text> 
+    <text class='phone'>电话:13125152877</text>
+  </view>
+  <view class='tel pr'catchtap="calling">
+    <image src='../../../images/tel.png' class='tel-icon'></image>
+    拨打电话
+  </view>
+</view>
+<view class='bg'>
+</view>
+<view class='list contanier'>
+  <view class='detail'>
+    <text class='block type'>全职招聘-网络/IT</text>
+    <view class='subtitle'>标题:
+      <text class='strong'>城市客寓</text>
+    </view>
+    <view class='title'>
+      详细信息
+    </view>
+    <view class='des'>
+      古镇同城网络招聘啦!走过路过不要错过，哈哈哈，过来看一看，瞧一瞧啊，招前端开发工程师，PHP开发工程师，ui设计师
+    </view>
+  </view>
+  <view class='banner'>
+      <image src="{{item}}" class='item_banner' wx:for="{{banner}}" wx:key="index" catchtap='showImg' data-src="{{item}}"/>
+  </view>
+  <view class="complain">
+    <image src='../../../images/tousu.png' class='complain-icon'></image>
+    <text class='complain-text'>我要投诉</text>
+  </view>
+  <view class='time pr'>
+    2017-11-30
+  </view>
+</view>
+<view class='bg'>
+</view>
+<!--评论  -->
+<view class='comment'>
+  <text class='comment-text'>
+    评论(4)
+  </text>
+  <text class='comment-text comment-color'>
+    我要点评
+  </text>
+</view>
+<view class='list contanier'> 
+
+</view>

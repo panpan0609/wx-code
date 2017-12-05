@@ -1,0 +1,32 @@
+/**app.wxss**/
+.col-x2{
+  width: 20%;
+  display: inline-block;
+}
+.col-x8{
+  width: 80%;
+  display: inline-block;
+}
+.contanier{
+  padding: 10px;
+}
+.middle{
+   vertical-align: middle;
+}
+.top{
+  vertical-align: top;
+}
+.border-bottom{
+  border-bottom: 2rpx solid #EEE;
+}
+
+.title{
+  font-size: 30rpx;
+  text-align: center;
+}
+.subtitle{
+  text-align: center;
+  font-size: 26rpx;
+  color: #999;
+  padding: 20rpx 0;
+}

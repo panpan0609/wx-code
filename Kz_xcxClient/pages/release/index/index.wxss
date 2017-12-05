@@ -1,0 +1,31 @@
+/* pages/release/index/index.wxss */
+.group{
+  position: absolute;
+  bottom: -140px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20rpx 0;
+}
+.section-item{
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+.index_icon{
+  width: 80rpx;
+  height: 80rpx;
+  margin:20rpx auto;
+  border-radius: 50%;
+}
+.item_cion{
+  width: 60rpx;
+  height: 60rpx;
+  padding: 10rpx;
+}
+.text{
+  display: block;
+  font-size: 24rpx;
+}

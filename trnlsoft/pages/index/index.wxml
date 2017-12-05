@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view>
+  <image src='../../images/11.jpg' class='banner'></image>
+</view>
+<view class='list'>
+  <view class='title'>
+   有效支持客户的业务战略
+  </view>
+  <view class='subtitle'>
+   天软农联服务于互联网在多平台的解决方案
+  </view>
+  <view class='parent-list' animation="{{animationData}}">
+   <view class='item' wx:for="{{list}}" wx:key="index">
+    <view class='col-x2 top'>
+      <image src='{{item.src}}' class='item-icon'></image>
+    </view>
+    <view class='col-x8 item-left'>
+      <text class='item-text'>{{item.text}}</text>
+      <text class='item-detail'>{{item.detail}}</text>
+    </view>
+   </view>
+  </view>
+</view>

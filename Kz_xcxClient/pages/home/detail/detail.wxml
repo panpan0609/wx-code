@@ -1,0 +1,85 @@
+<!--详情  -->
+<view class='list contanier'>
+  <view class='item_x2 middle col-x2'>
+    <image src="../../../images/05.jpg" class='item_avtar' />
+  </view>
+  <view class='middle col-x8'>
+    <text class='title'>灯都古镇平台</text>
+    <text class='phone'>电话:13125152877</text>
+  </view>
+  <view class='tel pr wx-bg' catchtap="calling">
+    <image src='../../../images/tel.png' class='tel-icon'></image>
+    拨打电话
+  </view>
+</view>
+<view class='bg'>
+</view>
+<view class='list contanier'>
+  <view class='detail'>
+    <text class='block type wx-color'>全职招聘-网络/IT</text>
+    <view class='subtitle'>标题:
+      <text class='strong'>城市客寓</text>
+    </view>
+    <view class='title'>
+      详细信息
+    </view>
+    <view class='des'>
+      古镇同城网络招聘啦!走过路过不要错过，哈哈哈，过来看一看，瞧一瞧啊，招前端开发工程师，PHP开发工程师，ui设计师
+    </view>
+  </view>
+  <view class='banner'>
+    <image src="{{item}}" class='item_banner' wx:for="{{banner}}" wx:key="index" catchtap='showImg' data-src="{{item}}" />
+  </view>
+  <view class="complain">
+    <image src='../../../images/tousu.png' class='complain-icon'></image>
+    <text class='complain-text'>我要投诉</text>
+  </view>
+  <view class='time pr'>
+    2017-11-30
+  </view>
+</view>
+<view class='bg'>
+</view>
+<!--评论  -->
+<view class='comment border-bottom'>
+  <text class='comment-text color-txt'>
+    评论(4)
+  </text>
+  <text class='comment-text wx-color' bindtap='modaltap'>
+    我要点评
+  </text>
+</view>
+<view class='contanier border-bottom'>
+  <view class='item_x2 col-x2 top'>
+    <image src="../../../images/05.jpg" class='item_avtar' />
+  </view>
+  <view class='col-x8'>
+    <view class='item_userinfo'>
+      <text class='username'>木子目分</text>
+      <text class='usertime'>2017-12-30</text>
+    </view>
+    <view class='usertext'>
+      早上好早啊，不想起床，好烦躁，肚子咕，啊啊啊啊啊啊啊啊啊啊啊啊，颜文字都不支持
+    </view>
+    <view class="complain border-bottom">
+      <image src='../../../images/msg.png' class='complain-icon'></image>
+      <text class='complain-text'  bindtap='modaltap'>回复</text>
+    </view>
+    <view>
+      <text class='username'>辣条味的小草莓：</text>
+      <text class='usertext'>是啊是啊，我也很饿</text>
+    </view>
+    <view>
+      <text class='username'>记忆中那抹倔强：</text>
+      <text class='usertext'>是啊是啊，我已经饿死了</text>
+    </view>
+  </view>
+</view>
+<modal class="modal" hidden="{{modalFlag}}" no-cancel bindconfirm="modalOk" confirmText="我知道了">
+  <form>
+    <view class="dew">
+      <input type='text' name="" placeholder='请输入评论' value='' />
+    </view>
+  </form>
+  
+</modal>

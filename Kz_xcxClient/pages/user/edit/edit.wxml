@@ -1,0 +1,58 @@
+<!--pages/user/edit/edit.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="section">
+  <view class="item">
+    <view class="item_x2">
+      <label>头像</label>
+    </view>
+    <view class="item_x8">
+      <image bindtap="changeAvatar" class="userinfo-avatar" src="{{userInfo.avatarUrl}}"  class="avatar"></image>
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_x2">
+      <label>姓名</label>
+    </view>
+    <view class="item_x8">
+      <input type='text' name="user_nickname" placeholder='请输入姓名' value='{{userInfo.nickName}}' />
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_x2">
+      <label>性别</label>
+    </view>
+    <view class="item_x8">
+     <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio">
+        <radio value="1" checked="{{userInfo.gender==1?'checked':''}}"/>男
+      </label>
+      <label class="radio">
+        <radio value="2" checked="{{userInfo.gender==2?'checked':''}}"/>女
+      </label>
+    </radio-group>
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_x2">
+      <label>手机</label>
+    </view>
+    <view class="item_x8">
+      <input type='number' placeholder='请输入手机号'/>
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_x2">
+      <label>验证码</label>
+    </view>
+    <view class="item_x8">
+      <view class='code_input'>
+        <input type='text' placeholder='请输入验证码'/>
+      </view>
+      <view  class="code_button">
+        <button class='code'>获取验证码</button>
+      </view>
+    </view>
+  </view>
+</view>
+<button formType="submit" class='footer'>保存</button>
+</form>

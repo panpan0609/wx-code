@@ -1,0 +1,117 @@
+/* pages/details/detail.wxss */
+.list .item_x8{
+  vertical-align: middle;
+}
+.bg{
+  width: 100%;
+  height: 10px;
+  background: #EEE;
+}
+.list .item_x2 .item_avtar{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.pr{
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  line-height: 40rpx;
+}
+.tel{
+  background: #ffcc32;
+  border-radius: 20rpx;
+  color: #fff;
+  font-size: 24rpx; 
+  padding: 4rpx 10rpx;
+  display: flex;
+  align-content: center;
+}
+.time{
+   font-size: 24rpx; 
+   color: #666;
+}
+.tel-icon{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 5rpx 0;
+}
+.list .item_x8 .title,.list .item_x8 .phone{
+  display: block;
+  line-height: 40rpx;
+}
+.list .item_x8 .title{
+  font-size: 28rpx;
+}
+.list .item_x8 .phone{
+  color: #999;
+  font-size: 26rpx;
+}
+.block{
+  display: block;
+}
+.detail .type{
+  color: #ffcc32;
+  font-size: 26rpx;
+  line-height:40rpx;
+}
+.detail .subtitle{
+  font-size: 26rpx;
+  color: #666;
+  line-height:48rpx;
+}
+.detail .subtitle .strong{
+  font-size: 26rpx;
+  color: #000;
+  line-height:48rpx;
+}
+.detail .title{
+  font-size: 26rpx;
+  line-height:40rpx;
+  margin: 0;
+  color: #666;
+}
+.detail .des{
+  font-size: 26rpx;
+  color: #666;
+  line-height: 36rpx;
+}
+.banner{
+  padding: 20rpx 0;
+}
+.item_banner{
+  width: 100%;
+  display: block;
+  padding: 10rpx 0;
+}
+.complain{
+  width: 100%;
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.complain-icon{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 6rpx;
+}
+.complain-text{
+  font-size: 24rpx;
+  color: #999;
+}
+/*评论  */
+.comment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 20rpx;
+  border: 2rpx soli #EEE;
+}
+.comment-text{
+  font-size: 26rpx;
+  color: #666;
+}
+.comment-color{
+  color: #ffcc32;
+}

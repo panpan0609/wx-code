@@ -1,0 +1,15 @@
+<!--pages/about/index.wxml-->
+<view>
+  <view class='title'>
+   有效支持客户的业务战略
+  </view>
+  <view class='subtitle'>
+   天软农联服务于互联网在多平台的解决方案
+  </view>
+ <view class='item' wx:for="{{list}}" wx:key="index">
+  <text class='item-title title'>{{item.title}}</text>
+  <view class='banner'>
+    <image src='{{item.src}}' class='banner-item'></image>
+  </view>
+ </view>
+</view>

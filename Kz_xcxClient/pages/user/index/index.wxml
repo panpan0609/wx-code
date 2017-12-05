@@ -1,0 +1,21 @@
+<!--pages/user/index/index.wxml-->
+<view class="container">
+  <view class="userbg">
+    <view class="userinfo">
+       <block>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    </view>
+  </view>
+ 
+  <view class="usermotto">
+    <block wx:for="{{list}}" wx:key="index" >
+      <view class='item' data-idx='{{index}}' bindtap="bindListTap">
+        <text class="user-text border-bottom">{{item.text}}</text>
+        <image class='icon' src="{{item.src}}"></image>
+      </view>
+    </block>
+  </view>
+</view>
+

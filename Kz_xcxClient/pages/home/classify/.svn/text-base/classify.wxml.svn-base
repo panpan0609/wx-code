@@ -1,0 +1,2 @@
+<!--pages/home/classify/classify.wxml-->
+<view> {{title}} </view>

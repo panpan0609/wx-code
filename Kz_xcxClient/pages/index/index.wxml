@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class='header'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='search'>
+    <view class='input' bindtap="jumpTap">
+      <view class='x2'>
+        <image src="../../images/search.png" class="search_img" />
+      </view>
+      <view class='x8'>
+        <input type='text' class='search_input' placeholder='请输入关键字' />
+      </view>
+    </view>
+  </view>
+</view>
+<view class="group">
+  <block wx:for="{{list}}" wx:key="index">
+    <view class="section-item" bindtap="listClickTap" data-title='{{item.text}}'>
+      <view class="index_icon" style='background:{{item.bg}}'>
+        <image src="{{item.src}}" class="item_cion" />
+      </view>
+      <text class="text">{{item.text}}</text>
+    </view>
+  </block>
+</view>
+<text class='new border-bottom'>最新推荐</text>
+<view class='list contanier' bindtap='detailTap'>
+  <view class='item_x2 col-x2'>
+    <image src="../../images/05.jpg" class='item_avtar' />
+  </view>
+  <view class='item_x8 col-x8'>
+    <text class='title'>灯都古镇平台</text>
+    <view>
+      <text class='subtitle'>全职招聘-网络/IT</text>
+    </view>
+    <text class="detail {{isChecked?'ellipsis':'normal'}}">古镇同城网络招聘啦!走过路过不要错过，哈哈哈，过来看一看，瞧一瞧啊，招前端开发工程师，PHP开发工程师，ui设计师</text>
+    <text class='watch wx-color' catchtap="{{isChecked?'downTap':'upTap'}}">{{isChecked?'查看全文':'收起'}}</text>
+    <view class='banner'>
+    <block wx:for="{{banner}}" wx:key="index" data-src="{{item}}" >
+      <image src="{{item}}" class='item_banner' catchtap='showImg' />
+    </block>
+    </view>
+    <view class='info'>
+      <view class='info-x5'>
+        <text class='time'>2017-10-22</text>
+      </view>
+      <view class='info-x3'>
+        <image src='../../images/views.png' class='info-views'></image>
+        <text class='views'>22211</text>
+      </view>
+      <view class='info-x2'>
+        <image src='../../images/msg.png' class='info-views'></image>
+        <text class='msg'>2</text>
+      </view>
+    </view>
+    <view class='tel wx-bg' catchtap="calling">
+      <image src='../../images/tel.png' class='tel-icon'></image>
+      拨打电话
+    </view>
+  </view>
+</view>

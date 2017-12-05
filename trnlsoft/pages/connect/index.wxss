@@ -1,0 +1,28 @@
+/* pages/connect/index.wxss */
+.info{
+  padding: 10rpx 0;
+}
+.info-icon{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+  padding-right: 10rpx;
+}
+.info-text{
+  font-size: 28rpx;
+  vertical-align: middle;
+  color: #666;
+}
+.contact{
+  position: fixed;
+  bottom: 10%;
+  right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background: #ffcc32;
+  border-radius: 50%;
+  justify-content: center;
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+}

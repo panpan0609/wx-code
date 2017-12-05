@@ -1,5 +1,0 @@
-<!--pages/fabu/fabu.wxml-->
-<view class='server'>
-  <text class='text'>我发布的</text>
-</view>
-

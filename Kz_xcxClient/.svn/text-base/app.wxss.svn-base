@@ -1,0 +1,15 @@
+.col-x2{
+  width: 20%;
+  display: inline-block;
+}
+.col-x8{
+  width: 80%;
+  display: inline-block;
+}
+.list{
+  cursor: pointer;
+  position: relative;
+}
+.contanier{
+  padding: 10px;
+}

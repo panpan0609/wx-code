@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/index",
+    "pages/connect/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ffcc32",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/index_selected.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/my_selected.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/about/index",
+        "text": "开发案例"
+      },
+      {
+        "selectedIconPath": "images/my_selected.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/connect/index",
+        "text": "联系我们"
+      }
+    ]
+  }
+}

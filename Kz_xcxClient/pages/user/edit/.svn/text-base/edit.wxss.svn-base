@@ -1,0 +1,64 @@
+/* pages/user/edit/edit.wxss */
+.section{
+  padding: 20rpx 30rpx;
+}
+.item{
+  width: 100%;
+  padding: 20rpx 0;
+  border-bottom:1px solid #eee; 
+}
+.avatar{
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: middle;
+}
+.item_x2{
+  width: 30%;
+  display: inline-block;
+}
+.item_x2 label{
+  font-size: 28rpx;
+}
+.item_x8{
+  width: 70%;
+  color: #999;
+  font-size: 28rpx;
+  text-align: right;
+  vertical-align: middle;
+  display: inline-block;
+}
+.code_input{
+  width: 60%;
+  color: #999;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+.code_button{
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+button{
+  background-color: transparent!important;
+  font-size: 24rpx;
+  padding:0 6rpx;
+  margin-right: 6rpx;
+  color: #ffcc32;
+  vertical-align: middle;
+}
+button::after{
+  border: 2rpx solid #ffcc32;
+}
+.footer{
+  width: 100%;
+  color: #fff;
+  background: #ffcc32;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
