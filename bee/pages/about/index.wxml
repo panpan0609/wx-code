@@ -1,0 +1,32 @@
+<!--pages/connect/index.wxml-->
+<view class='contanier'>
+  <view class='item'>
+   <view class='col-xs1 top'>
+      <view class='iconfont icon-lianxiren'></view>
+    </view>
+    <view class='col-xs9 top'>
+      <text class="info-text">联系人: 李海波</text>
+    </view>
+  </view>
+  <view class='item border-bottom' bindtap='calling' data-tel='13593653833'>
+   <view class='col-xs1 top'>
+     <view class='iconfont icon-lianxiwomen'></view>
+    </view>
+    <view class='col-xs9 top'>
+      <text class="info-text">手机: 13593653833</text>
+    </view>
+    <image class='icon' src="../../images/arrow.png"></image>
+  </view>
+  <view class='item' bindtap='loactiontap'>
+    <view class='col-xs1 top'>
+      <view class='iconfont icon-dizhi'></view>
+    </view>
+    <view class='col-xs9 top'>
+      <text class="info-text">地址: 湖北省红安县高桥镇熊家畈农厂</text>
+      <text class="info-text" style='margin-left:12%;'> 四队12号</text>
+    </view>
+    <image class='icon' src="../../images/arrow.png"></image>
+  </view>
+  <map id="map" longitude="114.56537000000002" latitude="31.1867000000" scale="12" markers="{{markers}}" bindtap='loactiontap' show-location style="width: 100%; height: 700rpx;">
+  </map>
+</view>

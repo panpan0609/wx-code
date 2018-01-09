@@ -1,0 +1,29 @@
+.case{
+  padding: 20rpx 0;
+}
+.case-title{
+  font-size: 28rpx;
+  text-align: center;
+}
+.case-box{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.case-item{
+  width: 33%;
+}
+.case-contanier{
+ padding: 10rpx 20rpx;
+}
+.case-img{
+  width: 100%;
+  display: block;
+  height: 100rpx;
+}
+.case-detail{
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}

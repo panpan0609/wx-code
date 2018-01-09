@@ -1,7 +1,8 @@
 /**index.wxss**/
-.banner{
+
+.slide-image{
   width: 100%;
-  height: 440rpx;
+  height: 460rpx;
 }
 .list{
   padding: 40rpx 20rpx;
@@ -18,9 +19,19 @@
 .item-left{
   text-align: left;
 }
+.icon-box{
+  width: 90rpx;
+  height: 90rpx;
+  background: #89DBF1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rpx;
+}
 .item-icon{
-  width: 80rpx;
-  height: 80rpx;
+  width: 70rpx;
+  height: 70rpx;
 }
 .item-text{
   display: block;
@@ -28,5 +39,23 @@
 }
 .item-detail{
   font-size: 30rpx;
-  color: #666;
+  color: #999;
+}
+.partner{
+  padding-top: 20rpx;
+}
+.contant{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contant-item{
+  width: 40%;
+  padding: 20rpx; 
+}
+.partner-img{
+  border: 1px solid #EEE;
+  width: 100%;
+  height: 160rpx;
 }

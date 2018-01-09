@@ -1,0 +1,14 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
+  <swiper-item  wx:for="{{imgList}}" wx:key="index">
+    <image src="{{item}}" class="slide-image" />
+  </swiper-item>
+</swiper>
+<view class='contanier'  wx:for='{{list}}' wx:key='index'>
+  <text class='item-text'>{{item.text}}</text>
+  <view class='list'>
+    <view class='item' wx:for='{{item.url}}' wx:for-item="itemName" wx:key='index'>
+      <image class='item-img' mode='aspectFill' src='{{itemName}}' bindtap='previewImage' data-imgList='{{item.url}}' data-src='{{itemName}}' ></image>   
+    </view>
+</view>
+</view>
+

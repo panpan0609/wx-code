@@ -9,6 +9,15 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     animationData: {},
+    imgUrls: [
+      'http://img2.imgtn.bdimg.com/it/u=118266621,4179316461&fm=27&gp=0.jpg',
+      'http://oss.huangye88.net/live/user/1836524/1466650155052484100-2.jpg',
+      'http://img5.imgtn.bdimg.com/it/u=1036833655,3038361718&fm=27&gp=0.jpg'
+    ],
+    indicatorDots: true,
+    autoplay: true,
+    interval: 2000,
+    duration: 1000,
     list: [
       {
         text: "微信公众号开发",
@@ -23,7 +32,7 @@ Page({
       {
         text: "小程序开发",
         detail: "敏锐观察行业需求和痛点，做可以落地实在的平台",
-        src: "../../images/o2o-01.png"
+        src: "../../images/wx-01.png"
       },
       {
         text: "高端定制开发",
@@ -31,10 +40,16 @@ Page({
         src: "../../images/ruanjian-01.png"
       },
       {
-        text: "网站建设",
+        text: "网站建设", 
         detail: "从需求分析到前端设计开发，最后后期质保完整流程方案",
         src: "../../images/website-01.png"
       }
+    ],
+    partner:[
+      { src: '../../images/partner01.png' },
+      { src: '../../images/partner02.png' },
+      { src: '../../images/partner03.png' },
+      { src: '../../images/partner04.png' },
     ]
   },
   //事件处理函数
@@ -71,5 +86,4 @@ Page({
     //   })
     // }.bind(this), 1000)
   },
-  
 })

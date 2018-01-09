@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/about/index",
+    "pages/case/index",
     "pages/connect/index"
   ],
   "window": {
@@ -13,7 +13,7 @@
   "tabBar": {
     "color": "#a9b7b7",
     "backgroundColor": "#fff",
-    "selectedColor": "#ffcc32",
+    "selectedColor": "#89DBF1",
     "borderStyle": "black",
     "list": [
       {
@@ -23,9 +23,9 @@
         "text": "首页"
       },
       {
-        "selectedIconPath": "images/my_selected.png",
-        "iconPath": "images/my.png",
-        "pagePath": "pages/about/index",
+        "selectedIconPath": "images/item_selected.png",
+        "iconPath": "images/item.png",
+        "pagePath": "pages/case/index",
         "text": "开发案例"
       },
       {

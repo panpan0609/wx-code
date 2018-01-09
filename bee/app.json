@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/index",
+    "pages/case/index/index",
+    "pages/case/detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffcc32",
+    "navigationBarTitleText": "海波蜂蜜",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ffcc32",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ffcc32",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/bee_selected.png",
+        "iconPath": "images/bee.png",
+        "pagePath": "pages/index/index",
+        "text": "产品"
+      },
+      {
+        "selectedIconPath": "images/item_selected.png",
+        "iconPath": "images/item.png",
+        "pagePath": "pages/case/index/index",
+        "text": "简介"
+      },
+      {
+        "selectedIconPath": "images/my_selected.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/about/index",
+        "text": "联系我们"
+      }
+    ]
+  }
+}

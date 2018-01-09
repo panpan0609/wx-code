@@ -1,0 +1,16 @@
+<!--pages/about/index.wxml-->
+<view class='list'>
+  <view wx:for="{{list}}" wx:for-index="idx" wx:key="idx" class='case'>
+    <view class='title'>{{item.title}}</view>
+    <view class='case-box'>
+      <view class='case-item' wx:for="{{item.data}}" wx:key="index">
+        <view class='case-contanier'>
+          <image class='case-img' src='{{item.src}}' data-idx="{{idx}}" data-src="{{item.src}}" bindtap='showImg'></image>
+          <view class='case-detail'>
+            {{item.detail}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

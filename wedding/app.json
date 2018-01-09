@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/index",
+    "pages/case/index/index",
+    "pages/case/detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f42535",
+    "navigationBarTitleText": "百年好合婚庆",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#f42535",
+    "backgroundColor": "#fff",
+    "selectedColor": "#f42535",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/bee_selected.png",
+        "iconPath": "images/bee.png",
+        "pagePath": "pages/index/index",
+        "text": "产品"
+      },
+      {
+        "selectedIconPath": "images/item_selected.png",
+        "iconPath": "images/item.png",
+        "pagePath": "pages/case/index/index",
+        "text": "案例"
+      },
+      {
+        "selectedIconPath": "images/my_selected.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/about/index",
+        "text": "联系我们"
+      }
+    ]
+  }
+}

@@ -1,23 +1,33 @@
 <!--index.wxml-->
-<view>
-  <image src='../../images/11.jpg' class='banner'></image>
-</view>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
 <view class='list'>
-  <view class='title'>
-   有效支持客户的业务战略
-  </view>
-  <view class='subtitle'>
-   天软农联服务于互联网在多平台的解决方案
-  </view>
   <view class='parent-list' animation="{{animationData}}">
    <view class='item' wx:for="{{list}}" wx:key="index">
     <view class='col-x2 top'>
-      <image src='{{item.src}}' class='item-icon'></image>
+      <view class='icon-box'>
+        <image src='{{item.src}}' class='item-icon'></image>
+      </view>
     </view>
     <view class='col-x8 item-left'>
       <text class='item-text'>{{item.text}}</text>
       <text class='item-detail'>{{item.detail}}</text>
     </view>
    </view>
+  </view>
+  <view class='partner'>
+    <view class='title'>
+      合作伙伴
+    </view>
+  </view>
+  <view class='contant'>
+    <view class='contant-item' wx:for="{{partner}}" wx:key="index">
+      <image class='partner-img' src='{{item.src}}'></image>
+    </view>
   </view>
 </view>

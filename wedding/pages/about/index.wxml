@@ -1,0 +1,31 @@
+<!--pages/connect/index.wxml-->
+<view class='contanier'>
+  <view class='item'>
+   <view class='col-xs1 top'>
+      <view class='iconfont icon-lianxiren'></view>
+    </view>
+    <view class='col-xs9 top'>
+      <text class="info-text">联系人: 周娜</text>
+    </view>
+  </view>
+  <view class='item border-bottom' bindtap='calling' data-tel='18162888026'>
+   <view class='col-xs1 top'>
+     <view class='iconfont icon-lianxiwomen'></view>
+    </view>
+    <view class='col-xs9 top'>
+      <text class="info-text">手机: 18162888026</text>
+    </view>
+    <image class='icon' src="../../images/arrow.png"></image>
+  </view>
+  <view class='item' bindtap='loactiontap'>
+    <view class='col-xs1 top'>
+      <view class='iconfont icon-dizhi'></view>
+    </view>
+    <view class='col-xs9 top'>
+      <text class="info-text">地址: 湖北省黄冈市红安县觅儿镇</text>
+      <!-- <text class="info-text" style='margin-left:12%;'> 四队12号</text> -->
+    </view>
+    <image class='icon' src="../../images/arrow.png"></image>
+  </view>
+  <image class='' src='../../images/mendian.jpg' mode='widthFix'></image>
+</view>

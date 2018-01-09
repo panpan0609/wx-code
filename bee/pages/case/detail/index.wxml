@@ -1,0 +1,27 @@
+<import src="../../../wxParse/wxParse.wxml"/>
+<view class='contanier'>
+  <view class='hd'>
+    <view class="hd-title">{{article.post_excerpt}}</view>   
+  </view>
+  <view class='photos-bd'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='true'>
+      <swiper-item  wx:for='{{article.more.photos}}' wx:key="index">
+        <image class='bd-img' src='{{item.url}}' bindtap='previewImage' data-imgList='{{article.more.photos}}' data-src='{{item.url}}' ></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="wxParse">
+        <template is="wxParse" data="{{wxParseData:articleContent.nodes}}"/>
+      </view>
+    </view>
+  </view>
+  <view class='hd-info'>
+      <view class="icon iconfont icon-shijian"></view>
+      {{article.published_time}}
+      <view class="icon icon-eye iconfont icon-Artboard"></view>
+      {{article.post_hits}}
+  </view>
+</view>
+

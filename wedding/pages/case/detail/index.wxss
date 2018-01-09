@@ -1,0 +1,42 @@
+@import '../../../wxParse/wxParse.wxss';
+.hd{
+  padding-bottom: 20rpx;
+}
+.hd-title{
+  font-size: 28rpx;
+  padding: 20rpx 0;
+  color: #666;
+}
+.hd-info{
+  font-size: 26rpx;
+  color: #999;
+  text-align:right;
+}
+.icon{
+  display: inline-block;
+  color: #999;
+  margin-left: 20rpx;
+}
+.icon-eye{
+  font-size: 20px;
+}
+.bd{
+  padding: 30rpx 50rpx;
+}
+.bd-img{
+  width: 100%;
+}
+.thumbnail-img{
+  width: 100%;
+}
+.wxParse-section{
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.8;
+  padding-bottom: 20rpx;
+}
+.wxParse-p{
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.8;
+}

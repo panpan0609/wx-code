@@ -1,0 +1,22 @@
+/* pages/case/index/index.wxss */
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item{
+  padding: 20rpx;
+  width: 50%;
+  box-sizing: border-box;
+}
+.item-img{
+  width: 100%;
+  height: 220rpx;
+}
+.item-text{
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 28rpx;
+}

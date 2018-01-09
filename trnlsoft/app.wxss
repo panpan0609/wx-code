@@ -1,9 +1,18 @@
 /**app.wxss**/
+.col-xs1{
+  width: 5%;
+  padding-right: 10rpx;
+  display: inline-block;
+}
 .col-x2{
   width: 20%;
   display: inline-block;
 }
 .col-x8{
+  width: 80%;
+  display: inline-block;
+}
+.col-xs9{
   width: 80%;
   display: inline-block;
 }
@@ -19,7 +28,6 @@
 .border-bottom{
   border-bottom: 2rpx solid #EEE;
 }
-
 .title{
   font-size: 30rpx;
   text-align: center;

@@ -1,0 +1,45 @@
+.list{
+  padding:20rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items:center;
+}
+.list-panel:first-child {
+  margin-top:0;
+}
+.list-panel{
+  margin-top:20rpx;
+}
+.list-hd{
+  flex: 1;
+  min-width:0;
+}
+.list-title{
+  font-size: 30rpx;
+  width:auto;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  word-wrap:break-word;
+  word-break:break-all;
+  line-height: 1.8;
+}
+.list-subtitle{
+  font-size: 26rpx;
+  color: #999;
+  line-height: 1.5;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+.list-bd{
+  width: 120rpx;
+  height: 120rpx;
+  padding-left: 30rpx;
+}
+.thumbnail{
+  width: 100%;
+  height: 100%;
+}

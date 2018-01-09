@@ -1,0 +1,23 @@
+/* pages/about/index.wxss */
+.item{
+  position: relative;
+  padding: 20rpx 0 30rpx;
+}
+.info-icon{
+  width: 38rpx;
+  height: 38rpx;
+  vertical-align: top;
+}
+.info-text{
+  display: block;
+  color: #666;
+  font-size: 30rpx;
+}
+.icon{
+  position: absolute;
+  right: 20rpx;
+  top: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  transform:translate(0,-50%);
+}
