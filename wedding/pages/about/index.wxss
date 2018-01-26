@@ -3,6 +3,9 @@
   position: relative;
   padding: 20rpx 0 30rpx;
 }
+.mendian{
+  width: 100%;
+}
 .info-icon{
   width: 38rpx;
   height: 38rpx;
@@ -20,4 +23,18 @@
   width: 40rpx;
   height: 40rpx;
   transform:translate(0,-50%);
+}
+.contact{
+  position: fixed;
+  bottom:50rpx;
+  right: 20rpx;
+  width: 120rpx;
+  height: 120rpx;
+  background: #f42535;
+  border-radius: 50%;
+  justify-content: center;
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
 }

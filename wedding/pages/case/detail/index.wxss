@@ -9,8 +9,10 @@
 }
 .hd-info{
   font-size: 26rpx;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15rpx;
   color: #999;
-  text-align:right;
 }
 .icon{
   display: inline-block;

@@ -1,4 +1,4 @@
-//index.js
+
 //获取应用实例
 const app = getApp()
 var api = require('../../utils/api.js')
@@ -29,7 +29,11 @@ Page({
   },
   getList: function () {
     api.get({
-      url: 'portal/categories',
+      url: 'portal/categories' ,
+      data:{
+        type:0,
+        page:1
+      },
       success: res => {
         if (res.code == 1) {
           let arr1 = [], arr2 = [], arr3 = [], arr4 = [], list1 = {}, list2 = {}, list3 = {}, list4 = {}, list = {};
@@ -69,6 +73,9 @@ Page({
       }
     })
   },
+  imgload: function (event){
+    // console.log(event)
+  },
   previewImage: function (event) {
     let src = event.currentTarget.dataset.src;//获取data-src
     let imgList = event.currentTarget.dataset.imglist;//获取data-list
@@ -85,7 +92,7 @@ Page({
     }
     return {
       title: '海波蜂蜜',
-      path: '/page/index/index',
+      path: '/pages/index/index',
       success: function (res) {
         wx.showToast({
           title: '转发成功',

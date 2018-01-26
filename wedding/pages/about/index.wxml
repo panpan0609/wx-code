@@ -27,5 +27,13 @@
     </view>
     <image class='icon' src="../../images/arrow.png"></image>
   </view>
-  <image class='' src='../../images/mendian.jpg' mode='widthFix'></image>
+  <image class='mendian' src='../../images/mendian.jpg' mode='widthFix'></image>
+</view>
+ <view class='contact'>
+  <contact-button 
+    type="default-light" 
+    size="27"
+    session-from="weapp" class='contact-btn'
+  >
+</contact-button>
 </view>

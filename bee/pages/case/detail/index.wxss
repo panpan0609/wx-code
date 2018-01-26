@@ -10,7 +10,9 @@
 .hd-info{
   font-size: 26rpx;
   color: #999;
-  text-align:right;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15rpx;
 }
 .icon{
   display: inline-block;

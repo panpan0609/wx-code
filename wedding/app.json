@@ -21,13 +21,13 @@
         "selectedIconPath": "images/bee_selected.png",
         "iconPath": "images/bee.png",
         "pagePath": "pages/index/index",
-        "text": "产品"
+        "text": "案例"
       },
       {
         "selectedIconPath": "images/item_selected.png",
         "iconPath": "images/item.png",
         "pagePath": "pages/case/index/index",
-        "text": "案例"
+        "text": "动态"
       },
       {
         "selectedIconPath": "images/my_selected.png",

@@ -74,12 +74,11 @@ Page({
       loadingMore: true
     });
     api.get({
-      url: 'portal/articles',
+      url: 'portal/lists/recommended',
       data: { page: this.currentPageNumber },
       success: data => {
         if (data.code == 1) {
-          data.data = data.data.slice(0,4)
-          this.data.list.push(...data.data)
+          this.data.list.push(...data.data.list)
           this.setData({
             list: this.data.list
           });
@@ -105,7 +104,24 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-  
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '海波蜂蜜',
+      path: '/pages/case/index/index',
+      success: function (res) {
+        wx.showToast({
+          title: '转发成功',
+          icon: 'success',
+          duration: 2000
+        })
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
   }
 })

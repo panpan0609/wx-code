@@ -18,10 +18,8 @@
     </view>
   </view>
   <view class='hd-info'>
-      <view class="icon iconfont icon-shijian"></view>
-      {{article.published_time}}
-      <view class="icon icon-eye iconfont icon-Artboard"></view>
-      {{article.post_hits}}
+      <view>{{article.published_time}}</view>
+      <view>{{article.post_hits}}人浏览</view>
   </view>
 </view>
 

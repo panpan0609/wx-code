@@ -1,7 +1,6 @@
 
 var app = getApp();
-
-const host = "http://127.0.0.1/public";
+const host = "http://127.0.0.1";
 
 var tryingLogin = false;
 
